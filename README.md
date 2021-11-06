@@ -13,11 +13,3 @@
 Релиз доступен [**здесь**](https://github.com/konsilerinos/Timer/blob/main/Revolution-timer/Revolution%20timer%20release.zip)
 
 ![image](https://user-images.githubusercontent.com/78896451/140598029-9e7500f2-9a74-42e5-859c-51ab40f4c16f.png)
-
-### Режим "Таймер самурая"
-
-(На стадии проектирования)
-
-### Режим "Гачимучи таймер"
-
-(На стадии проектирования)
