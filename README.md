@@ -19,7 +19,7 @@
 Сопровождающиеся звуком диалоговые окна сигнализируют о завершении работы таймера
 Секретное диалоговое окно содержит информацию и разработчике
 
-![image](https://user-images.githubusercontent.com/78896451/140775982-2c8234cc-2ca3-4577-b7c8-a8cd6df590af.png)
+![image](https://user-images.githubusercontent.com/78896451/140777733-68d57bfc-e876-47dd-8eff-4620eb985d4f.png)
 
 ### 
 
