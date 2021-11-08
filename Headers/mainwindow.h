@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "info.h"
 #include "time15successwindow.h"
 #include "time25successwindow.h"
 #include "time5successwindow.h"
@@ -37,10 +38,14 @@ class MainWindow : public QMainWindow {
 
     void on_closeButton_clicked(); // Закрыть, нажатие
 
+    void on_CheGevaraLabel_clicked();
+
   private:
     Time25SuccessWindow* time25SuccessWindow; // 25 минут, форма
     Time15SuccessWindow* time15SuccessWindow; // 15 минут, форма
     Time5SuccessWindow* time5SuccessWindow;   // 5 минут, форма
+
+    Info infoWindow;
 
     QTimer* timer;  // Таймер
     QPoint posPrev; // Указатель мыши, позиция

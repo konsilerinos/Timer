@@ -3,6 +3,7 @@
 
 Time15SuccessWindow::Time15SuccessWindow(QWidget* parent) : QDialog(parent), ui(new Ui::Time15SuccessWindow) {
 
+    // Настройка панели управления
     this->setWindowFlags(Qt::CustomizeWindowHint | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
 
     // Инициализация медиапроигрывателя

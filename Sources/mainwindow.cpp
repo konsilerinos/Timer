@@ -3,7 +3,7 @@
 
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
 
-    // Удаление стандартной панели управления
+    // Настройка панели управления
     this->setWindowFlags(Qt::CustomizeWindowHint | Qt::FramelessWindowHint);
 
     // Инициализация таймера
@@ -220,3 +220,6 @@ void MainWindow::on_closeButton_clicked() {
     // Закрытие программы
     QApplication::exit();
 }
+
+// Информация, нажатие
+void MainWindow::on_CheGevaraLabel_clicked() { infoWindow.show(); }

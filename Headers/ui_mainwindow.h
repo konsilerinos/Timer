@@ -25,7 +25,6 @@ public:
     QAction *action_2;
     QWidget *centralwidget;
     QLabel *head2Label;
-    QLabel *cheGevaraLabel;
     QLabel *flagLabel;
     QLabel *head1Label;
     QPushButton *closeButton;
@@ -38,6 +37,7 @@ public:
     QPushButton *time25Button;
     QPushButton *time15Button;
     QPushButton *time5Button;
+    QPushButton *CheGevaraLabel;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -67,14 +67,6 @@ public:
 "	color: #FFFFFF;\n"
 "}"));
         head2Label->setAlignment(Qt::AlignCenter);
-        cheGevaraLabel = new QLabel(centralwidget);
-        cheGevaraLabel->setObjectName(QString::fromUtf8("cheGevaraLabel"));
-        cheGevaraLabel->setGeometry(QRect(370, 110, 341, 431));
-        cheGevaraLabel->setStyleSheet(QString::fromUtf8("QLabel#cheGevaraLabel {\n"
-"	\n"
-"	background-image: url(:/Resources/Images/Che-Gevara.jpg);\n"
-"	background-color: #083D77;\n"
-"}"));
         flagLabel = new QLabel(centralwidget);
         flagLabel->setObjectName(QString::fromUtf8("flagLabel"));
         flagLabel->setGeometry(QRect(20, 110, 331, 191));
@@ -303,6 +295,14 @@ public:
 "	color: #FFFFFF;\n"
 "	border: 5px solid #000000;\n"
 "}"));
+        CheGevaraLabel = new QPushButton(centralwidget);
+        CheGevaraLabel->setObjectName(QString::fromUtf8("CheGevaraLabel"));
+        CheGevaraLabel->setGeometry(QRect(370, 112, 341, 431));
+        CheGevaraLabel->setStyleSheet(QString::fromUtf8("QPushButton#CheGevaraLabel {\n"
+"\n"
+"	background-image: url(:/Resources/Images/Che-Gevara.jpg);\n"
+"	border: none;\n"
+"}"));
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
@@ -315,7 +315,6 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         action_2->setText(QApplication::translate("MainWindow", "\320\232\320\275\320\276\320\277\320\272\320\260 2", nullptr));
         head2Label->setText(QApplication::translate("MainWindow", "Temporizador de la revoluci\303\263n", nullptr));
-        cheGevaraLabel->setText(QString());
         flagLabel->setText(QString());
         head1Label->setText(QString());
         closeButton->setText(QString());
@@ -324,10 +323,11 @@ public:
         Time->setText(QApplication::translate("MainWindow", "25:00", nullptr));
         playButton->setText(QApplication::translate("MainWindow", "\320\227\320\260\320\277\321\203\321\201\320\272 (\321\200\320\260\320\272\320\265\321\202)", nullptr));
         pauseButton->setText(QApplication::translate("MainWindow", "\320\236\320\261\321\200\320\260\321\202\320\270\321\202\321\214\321\201\321\217 \320\272 \320\240\320\232", nullptr));
-        stopButton->setText(QApplication::translate("MainWindow", "\320\240\320\260\321\201\321\201\321\202\321\200\320\265\320\273 \320\277\321\200\320\265\320\277\320\276\320\264\320\260\320\262\320\260\321\202\320\265\320\273\320\265\320\271", nullptr));
+        stopButton->setText(QApplication::translate("MainWindow", "\320\240\320\260\321\201\321\201\321\202\321\200\320\265\320\273 \320\237\320\240\320\225\320\224\320\220\320\242\320\225\320\233\320\225\320\231", nullptr));
         time25Button->setText(QApplication::translate("MainWindow", "\320\241\320\276\321\206\320\270\320\260\320\273\320\270\321\201\321\202\320\270\321\207\320\265\321\201\320\272\320\270\320\271 \321\200\320\265\320\266\320\270\320\274 (25 \320\274\320\270\320\275\321\203\321\202)", nullptr));
         time15Button->setText(QApplication::translate("MainWindow", "\320\241\320\276\320\262\320\265\321\200\321\210\320\270\321\202\321\214 \320\262\320\276\320\265\320\275\320\275\321\213\320\271 \320\277\320\265\321\200\320\265\320\262\320\276\321\200\320\276\321\202 (15 \320\274\320\270\320\275\321\203\321\202)", nullptr));
         time5Button->setText(QApplication::translate("MainWindow", "\320\237\320\276\320\272\321\203\321\200\320\270\321\202\321\214 \320\272\321\203\320\261\320\270\320\275\321\201\320\272\321\203\321\216 \321\201\320\270\320\263\320\260\321\200\321\203 (5 \320\274\320\270\320\275\321\203\321\202)", nullptr));
+        CheGevaraLabel->setText(QString());
     } // retranslateUi
 
 };

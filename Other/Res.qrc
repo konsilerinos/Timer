@@ -15,5 +15,6 @@
         <file>Resources/Images/Che-Gevara.jpg</file>
         <file>Resources/Images/Enrollar-button/Enrollar-disabled.png</file>
         <file>Resources/Icon/Icon.ico</file>
+        <file>Resources/Images/Flag.png</file>
     </qresource>
 </RCC>

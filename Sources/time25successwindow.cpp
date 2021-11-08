@@ -5,6 +5,7 @@
 
 Time25SuccessWindow::Time25SuccessWindow(QWidget* parent) : QDialog(parent), ui(new Ui::Time25SuccessWindow) {
 
+    // Настройка панели управления
     this->setWindowFlags(Qt::CustomizeWindowHint | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
 
     // Инициализация медиапроигрывателя

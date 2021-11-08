@@ -53,26 +53,6 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="cheGevaraLabel">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>110</y>
-      <width>341</width>
-      <height>431</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel#cheGevaraLabel {
-	
-	background-image: url(:/Resources/Images/Che-Gevara.jpg);
-	background-color: #083D77;
-}</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QLabel" name="flagLabel">
     <property name="geometry">
      <rect>
@@ -358,7 +338,7 @@ QPushButton#stopButton:pressed {
 }</string>
     </property>
     <property name="text">
-     <string>Расстрел преподавателей</string>
+     <string>Расстрел ПРЕДАТЕЛЕЙ</string>
     </property>
    </widget>
    <widget class="QPushButton" name="time25Button">
@@ -473,6 +453,26 @@ QPushButton#time5Button:pressed {
     </property>
     <property name="text">
      <string>Покурить кубинскую сигару (5 минут)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CheGevaraLabel">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>112</y>
+      <width>341</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CheGevaraLabel {
+
+	background-image: url(:/Resources/Images/Che-Gevara.jpg);
+	border: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
