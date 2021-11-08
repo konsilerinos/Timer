@@ -20,7 +20,7 @@
 
 Сопровождающиеся звуком диалоговые окна сигнализируют о завершении работе таймера
 
-![Info](https://user-images.githubusercontent.com/78896451/140761002-0f06347f-9dc4-4c1d-97b3-84eb06d659ce.png)
+![image](https://user-images.githubusercontent.com/78896451/140775272-ec3cb1e3-3a60-4d7c-b811-5cf7301dba08.png)
 
 ### 
 
