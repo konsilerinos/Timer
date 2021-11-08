@@ -25,7 +25,7 @@
 
 ## Relase-версия
 
-Готовый к использованию продукт доступен [**здесь**](https://github.com/konsilerinos/Timer/blob/main/Release.rar)
+Готовый к использованию продукт доступен [**здесь**](https://github.com/konsilerinos/Timer/blob/main/Release.zip)
 
 ## Test-версия
 
