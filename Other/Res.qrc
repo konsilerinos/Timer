@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/Sounds/Revolt.wav</file>
+        <file>Resources/Images/Close-button/Close-hover.png</file>
+        <file>Resources/Images/Close-button/Close-pressed.png</file>
+        <file>Resources/Images/Close-button/Close.png</file>
+        <file>Resources/Images/Enrollar-button/Enrollar-hover.png</file>
+        <file>Resources/Images/Enrollar-button/Enrollar-pressed.png</file>
+        <file>Resources/Images/Enrollar-button/Enrollar.png</file>
+        <file>Resources/Images/Revelar-button/Revelar-hover.png</file>
+        <file>Resources/Images/Revelar-button/Revelar-pressed.png</file>
+        <file>Resources/Images/Revelar-button/Revelar.png</file>
+        <file>Resources/Images/Revelar-button/Revelar-disabled.png</file>
+        <file>Resources/Images/M-26-7.jpg</file>
+        <file>Resources/Images/Che-Gevara.jpg</file>
+        <file>Resources/Images/Enrollar-button/Enrollar-disabled.png</file>
+        <file>Resources/Icon/Icon.ico</file>
+    </qresource>
+</RCC>
