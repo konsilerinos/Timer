@@ -12,8 +12,8 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QTextEdit>
 
 QT_BEGIN_NAMESPACE
 
@@ -21,19 +21,15 @@ class Ui_Info
 {
 public:
     QPushButton *vamosButton;
-    QLabel *Text1;
-    QLabel *Image;
-    QLabel *Text2;
-    QLabel *Text3;
-    QLabel *Text4;
-    QLabel *Text5;
-    QLabel *Text6;
+    QTextEdit *textBlock;
 
     void setupUi(QDialog *Info)
     {
         if (Info->objectName().isEmpty())
             Info->setObjectName(QString::fromUtf8("Info"));
-        Info->resize(951, 361);
+        Info->resize(851, 551);
+        Info->setMinimumSize(QSize(851, 551));
+        Info->setMaximumSize(QSize(851, 551));
         Info->setStyleSheet(QString::fromUtf8("QDialog#Info {\n"
 "\n"
 "	background-color: #083D77;\n"
@@ -41,9 +37,9 @@ public:
 "}"));
         vamosButton = new QPushButton(Info);
         vamosButton->setObjectName(QString::fromUtf8("vamosButton"));
-        vamosButton->setGeometry(QRect(20, 290, 911, 61));
+        vamosButton->setGeometry(QRect(10, 500, 831, 41));
         QFont font;
-        font.setPointSize(20);
+        font.setPointSize(14);
         vamosButton->setFont(font);
         vamosButton->setStyleSheet(QString::fromUtf8("QPushButton#vamosButton {\n"
 "\n"
@@ -70,71 +66,17 @@ public:
 "	border: 5px solid #6B8BAD;\n"
 "}\n"
 ""));
-        Text1 = new QLabel(Info);
-        Text1->setObjectName(QString::fromUtf8("Text1"));
-        Text1->setGeometry(QRect(20, 20, 371, 41));
+        textBlock = new QTextEdit(Info);
+        textBlock->setObjectName(QString::fromUtf8("textBlock"));
+        textBlock->setGeometry(QRect(10, 10, 831, 481));
         QFont font1;
-        font1.setPointSize(22);
-        Text1->setFont(font1);
-        Text1->setStyleSheet(QString::fromUtf8("QLabel#Text1 {\n"
+        font1.setPointSize(18);
+        textBlock->setFont(font1);
+        textBlock->setStyleSheet(QString::fromUtf8("QTextEdit#textBlock {\n"
 "\n"
 "	background-color: #083D77;\n"
 "	color: #FFFFFF;\n"
-"}"));
-        Image = new QLabel(Info);
-        Image->setObjectName(QString::fromUtf8("Image"));
-        Image->setGeometry(QRect(400, 20, 531, 261));
-        Image->setStyleSheet(QString::fromUtf8("QLabel#Image {\n"
-"\n"
-"	background-color: #083D77;\n"
-"	background-image: url(:/Resources/Images/Flag.png);\n"
-"}"));
-        Text2 = new QLabel(Info);
-        Text2->setObjectName(QString::fromUtf8("Text2"));
-        Text2->setGeometry(QRect(20, 60, 371, 41));
-        QFont font2;
-        font2.setPointSize(18);
-        Text2->setFont(font2);
-        Text2->setStyleSheet(QString::fromUtf8("QLabel#Text2 {\n"
-"\n"
-"	background-color: #083D77;\n"
-"	color: #FFFFFF;\n"
-"}"));
-        Text3 = new QLabel(Info);
-        Text3->setObjectName(QString::fromUtf8("Text3"));
-        Text3->setGeometry(QRect(20, 110, 371, 41));
-        Text3->setFont(font1);
-        Text3->setStyleSheet(QString::fromUtf8("QLabel#Text3 {\n"
-"\n"
-"	background-color: #083D77;\n"
-"	color: #FFFFFF;\n"
-"}"));
-        Text4 = new QLabel(Info);
-        Text4->setObjectName(QString::fromUtf8("Text4"));
-        Text4->setGeometry(QRect(20, 150, 371, 41));
-        Text4->setFont(font2);
-        Text4->setStyleSheet(QString::fromUtf8("QLabel#Text4 {\n"
-"\n"
-"	background-color: #083D77;\n"
-"	color: #FFFFFF;\n"
-"}"));
-        Text5 = new QLabel(Info);
-        Text5->setObjectName(QString::fromUtf8("Text5"));
-        Text5->setGeometry(QRect(20, 200, 371, 41));
-        Text5->setFont(font1);
-        Text5->setStyleSheet(QString::fromUtf8("QLabel#Text5 {\n"
-"\n"
-"	background-color: #083D77;\n"
-"	color: #FFFFFF;\n"
-"}"));
-        Text6 = new QLabel(Info);
-        Text6->setObjectName(QString::fromUtf8("Text6"));
-        Text6->setGeometry(QRect(20, 240, 371, 41));
-        Text6->setFont(font2);
-        Text6->setStyleSheet(QString::fromUtf8("QLabel#Text6 {\n"
-"\n"
-"	background-color: #083D77;\n"
-"	color: #FFFFFF;\n"
+"	border: 0px solid #FFFFFF;\n"
 "}"));
 
         retranslateUi(Info);
@@ -145,14 +87,7 @@ public:
     void retranslateUi(QDialog *Info)
     {
         Info->setWindowTitle(QApplication::translate("Info", "Dialog", nullptr));
-        vamosButton->setText(QApplication::translate("Info", "Expresen sus respetos al comandante y contin\303\272en con la revoluci\303\263n!", nullptr));
-        Text1->setText(QApplication::translate("Info", "El Comandante", nullptr));
-        Image->setText(QString());
-        Text2->setText(QApplication::translate("Info", "\320\241\320\273\320\265\321\201\320\260\321\200\320\265\320\262 \320\235\320\270\320\272\320\276\320\273\320\260\320\271 \320\241\320\265\321\200\320\263\320\265\320\265\320\262\320\270\321\207", nullptr));
-        Text3->setText(QApplication::translate("Info", "Alias en GitHub ", nullptr));
-        Text4->setText(QApplication::translate("Info", "konsilerinos", nullptr));
-        Text5->setText(QApplication::translate("Info", "Buz\303\263n", nullptr));
-        Text6->setText(QApplication::translate("Info", "n_slesarev@mail.ru", nullptr));
+        vamosButton->setText(QApplication::translate("Info", "\320\222\320\265\321\200\320\275\321\203\321\202\321\214\321\201\321\217 \320\272 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\320\265", nullptr));
     } // retranslateUi
 
 };

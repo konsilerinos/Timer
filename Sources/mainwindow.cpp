@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainWi
 
     // Инициализация таймера
     timer = new QTimer(this);
-    timer->setInterval(1000);
+    timer->setInterval(10);
     connect(timer, SIGNAL(timeout()), this, SLOT(UpdateTimeLabel()));
 
     ui->setupUi(this);
