@@ -14,7 +14,7 @@ MainQMW::MainQMW(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainQMW) {
 
     // Инициализация таймера
     timer = new QTimer(this);
-    timer->setInterval(1);
+    timer->setInterval(1000);
 
     SetSignals(); // Установка соответствия между сигналами и слотами
 
