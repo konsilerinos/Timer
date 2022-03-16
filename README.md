@@ -7,13 +7,13 @@
 ## Timer
 
 Исходники доступны **[здесь](https://github.com/konsilerinos/Timer/tree/main/Timer)**
+Документация доступна **[по ссылке](https://konsilerinos.github.io/Timer/Documentation/index.html)**
 
 ![Безымянный2](https://user-images.githubusercontent.com/78896451/158571286-12f39155-f549-4324-a060-7a132da9505f.png)
 
 ## Revolution timer (не сопровождается)
 
 Исходники доступны **[здесь](https://github.com/konsilerinos/Timer/tree/main/Revolution-timer)**
-Документация доступна **[по ссылке]()**
 
 Главное окно содержит элементы управления:
 1. Запуск (ракет) - запуск обратного отсчёта
