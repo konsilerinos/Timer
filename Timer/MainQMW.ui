@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>874</width>
-    <height>362</height>
+    <width>871</width>
+    <height>361</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>871</width>
+    <height>361</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>871</width>
+    <height>361</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Таймер</string>

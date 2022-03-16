@@ -49,7 +49,9 @@ public:
     {
         if (MainQMW->objectName().isEmpty())
             MainQMW->setObjectName(QString::fromUtf8("MainQMW"));
-        MainQMW->resize(874, 362);
+        MainQMW->resize(871, 361);
+        MainQMW->setMinimumSize(QSize(871, 361));
+        MainQMW->setMaximumSize(QSize(871, 361));
         centralwidget = new QWidget(MainQMW);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         groupBox = new QGroupBox(centralwidget);
