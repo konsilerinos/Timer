@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Time5SuccessWindow</class>
+ <widget class="QDialog" name="Time5SuccessWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#background {
+
+	background-color: #083D77;
+	border: 5px solid #1B2D53;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="vamosButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#vamosButton {
+
+        background-color: #083D77;
+        color: #FFFFFF;
+        border: 5px solid #FFFFFF;
+}
+QPushButton#vamosButton:hover {
+
+        background-color: #FFFFFF;
+        color: #1B2D53;
+        border: 5px solid #1B2D53;
+}
+QPushButton#vamosButton:pressed {
+
+        background-color: #DB1921;
+        color: #FFFFFF;
+        border: 5px solid #000000;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Vamos!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>32</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text1 {
+
+        color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Un cigarro cubano</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>92</y>
+     <width>401</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>32</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text2 {
+
+        color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>de póker!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

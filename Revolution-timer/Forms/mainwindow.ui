@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>831</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>22</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow {
+
+	background-color: #083D77;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="head2Label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>731</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#head2Label {
+
+	background-color: #1B2D53;
+	color: #FFFFFF;
+}</string>
+    </property>
+    <property name="text">
+     <string>Temporizador de la revolución</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flagLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>331</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#flagLabel {
+
+	background-color: #083D77;
+	background-image: url(:/Resources/Images/M-26-7.jpg);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="head1Label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>731</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#head1Label {
+
+	background-color: #162442;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#closeButton {
+	
+	background-image: url(:/Resources/Images/Close-button/Close.png);
+	border: none;
+}
+QPushButton#closeButton:hover {
+	
+	background-image: url(:/Resources/Images/Close-button/Close-hover.png);
+	border: none;
+}
+QPushButton#closeButton:pressed {
+	
+	background-image: url(:/Resources/Images/Close-button/Close-pressed.png);
+	border: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="revelarButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#revelarButton {
+	
+	background-image: url(:/Resources/Images/Revelar-button/Revelar-disabled.png);
+	border: none;
+}
+QPushButton#revelarButton:hover {
+	
+	background-image: url(:/Resources/Images/Revelar-button/Revelar-hover.png);
+	border: none;
+}
+QPushButton#revelarButton:pressed {
+	
+	background-image: url(:/Resources/Images/Revelar-button/Revelar-disabled.png);
+	border: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="enrollarButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#enrollarButton {
+
+	background-image: url(:/Resources/Images/Enrollar-button/Enrollar.png);
+	border: none;
+}
+QPushButton#enrollarButton:hover {
+
+	background-image: url(:/Resources/Images/Enrollar-button/Enrollar-hover.png);
+	border: none;
+}
+QPushButton#enrollarButton:pressed {
+
+	background-image: url(:/Resources/Images/Enrollar-button/Enrollar-pressed.png);
+	border: none;
+}
+QPushButton#enrollarButton:disabled {
+
+	background-image: url(:/Resources/Images/Enrollar-button/Enrollar-disabled.png);
+	border: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Time">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>331</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>85</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#Time {
+
+	color: #FFFFFF;
+}</string>
+    </property>
+    <property name="text">
+     <string>25:00</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#playButton {
+
+	background-color: #083D77;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#playButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1B2D53;
+	border: 5px solid #1B2D53;
+}
+QPushButton#playButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #000000;
+}
+QPushButton#playButton:disabled {
+
+	background-color: #083D77;
+	color: #6B8BAD;
+	border: 5px solid #6B8BAD;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Запуск (ракет)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pauseButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pauseButton {
+
+	background-color: #083D77;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#pauseButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1B2D53;
+	border: 5px solid #1B2D53;
+}
+QPushButton#pauseButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Обратиться к РК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>490</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#stopButton {
+
+	background-color: #083D77;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#stopButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1B2D53;
+	border: 5px solid #1B2D53;
+}
+QPushButton#stopButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Расстрел ПРЕДАТЕЛЕЙ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="time25Button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>570</y>
+      <width>691</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#time25Button {
+
+	background-color: #083D77;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#time25Button:hover {
+
+	background-color: #FFFFFF;
+	color: #1B2D53;
+	border: 5px solid #1B2D53;
+}
+QPushButton#time25Button:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Социалистический режим (25 минут)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="time15Button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>660</y>
+      <width>691</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#time15Button {
+
+	background-color: #083D77;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#time15Button:hover {
+
+	background-color: #FFFFFF;
+	color: #1B2D53;
+	border: 5px solid #1B2D53;
+}
+QPushButton#time15Button:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Совершить военный переворот (15 минут)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="time5Button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>750</y>
+      <width>691</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#time5Button {
+
+	background-color: #083D77;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#time5Button:hover {
+
+	background-color: #FFFFFF;
+	color: #1B2D53;
+	border: 5px solid #1B2D53;
+}
+QPushButton#time5Button:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Покурить кубинскую сигару (5 минут)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CheGevaraLabel">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>112</y>
+      <width>341</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CheGevaraLabel {
+
+	background-image: url(:/Resources/Images/Che-Gevara.jpg);
+	border: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <action name="action_2">
+   <property name="text">
+    <string>Кнопка 2</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

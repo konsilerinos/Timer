@@ -1,0 +1,3 @@
+Phrases.txt
+10
+20
