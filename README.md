@@ -10,7 +10,7 @@
 
 ![Безымянный2](https://user-images.githubusercontent.com/78896451/158571286-12f39155-f549-4324-a060-7a132da9505f.png)
 
-## Revolution timer
+## Revolution timer (не сопровождается)
 
 Исходники доступны **[здесь](https://github.com/konsilerinos/Timer/tree/main/Revolution-timer)**
 
